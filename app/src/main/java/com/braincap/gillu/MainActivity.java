@@ -2,6 +2,7 @@ package com.braincap.gillu;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -12,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.bumptech.glide.Glide;
+import com.google.android.gms.ads.MobileAds;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -51,6 +53,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-5130460669609348~9850806116");
 
         mp = null;
 
@@ -111,55 +115,55 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Glide.with(this).load(R.drawable.one).fitCenter().into(numberBoard);
                 play_sound(1);
                 display_nuts(1);
-                linearLayout.setBackgroundColor(getResources().getColor(R.color.one));
+                linearLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.one));
                 break;
             case R.id.btn_2:
                 Glide.with(this).load(R.drawable.two).fitCenter().into(numberBoard);
                 play_sound(2);
                 display_nuts(2);
-                linearLayout.setBackgroundColor(getResources().getColor(R.color.two));
+                linearLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.two));
                 break;
             case R.id.btn_3:
                 Glide.with(this).load(R.drawable.three).fitCenter().into(numberBoard);
                 play_sound(3);
                 display_nuts(3);
-                linearLayout.setBackgroundColor(getResources().getColor(R.color.three));
+                linearLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.three));
                 break;
             case R.id.btn_4:
                 Glide.with(this).load(R.drawable.four).fitCenter().into(numberBoard);
                 play_sound(4);
                 display_nuts(4);
-                linearLayout.setBackgroundColor(getResources().getColor(R.color.four));
+                linearLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.four));
                 break;
             case R.id.btn_5:
                 Glide.with(this).load(R.drawable.five).fitCenter().into(numberBoard);
                 play_sound(5);
                 display_nuts(5);
-                linearLayout.setBackgroundColor(getResources().getColor(R.color.five));
+                linearLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.five));
                 break;
             case R.id.btn_6:
                 Glide.with(this).load(R.drawable.six).fitCenter().into(numberBoard);
                 play_sound(6);
                 display_nuts(6);
-                linearLayout.setBackgroundColor(getResources().getColor(R.color.six));
+                linearLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.six));
                 break;
             case R.id.btn_7:
                 Glide.with(this).load(R.drawable.seven).fitCenter().into(numberBoard);
                 play_sound(7);
                 display_nuts(7);
-                linearLayout.setBackgroundColor(getResources().getColor(R.color.seven));
+                linearLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.seven));
                 break;
             case R.id.btn_8:
                 Glide.with(this).load(R.drawable.eight).fitCenter().into(numberBoard);
                 play_sound(8);
                 display_nuts(8);
-                linearLayout.setBackgroundColor(getResources().getColor(R.color.eight));
+                linearLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.eight));
                 break;
             case R.id.btn_9:
                 Glide.with(this).load(R.drawable.nine).fitCenter().into(numberBoard);
                 play_sound(9);
                 display_nuts(9);
-                linearLayout.setBackgroundColor(getResources().getColor(R.color.nine));
+                linearLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.nine));
                 break;
         }
     }

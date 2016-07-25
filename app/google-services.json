@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "192052883939",
+    "firebase_url": "https://gillu-a7e21.firebaseio.com",
+    "project_id": "gillu-a7e21",
+    "storage_bucket": "gillu-a7e21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192052883939:android:b4a533e24746d7c9",
+        "android_client_info": {
+          "package_name": "com.braincap.gillu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192052883939-ods6tiafmslpuoi3q7ddpjs4hn7mugnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSNF-EPPQ3OwRe3lynpKp0fYgSoqPJHgU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

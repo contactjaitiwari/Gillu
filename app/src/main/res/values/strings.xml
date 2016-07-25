@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Gillu</string>
     <string name="board">board</string>
+    <string name="gillu_the_gilahri">Gillu the Gilahri</string>
+    <string name="number_display_board">Number display board</string>
+    <string name="number">Number</string>
+    <string name="nut">nut</string>
+    <string name="garden">garden</string>
+    <string name="number_button">number button</string>
+    <string name="title">Gillu - Numbers for Children</string>
 </resources>
